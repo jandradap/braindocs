@@ -1,6 +1,6 @@
 site_name: Braindocs test
 site_url: 'http://localhost/'
-repo_url: 'https://github.com/jandradap/braindocs'
+repo_url: 'https://github.com/jandradap/braindocs/docs'
 site_description: 'Versión 0.0.0'
 site_author: 'Jorge Andrada Prieto'
 copyright: 'Jorge Andrada Prieto GPLv3'
