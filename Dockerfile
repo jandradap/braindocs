@@ -7,7 +7,7 @@ pip3 install --upgrade pip && \
 pip3 install mkdocs && \
 rm -rf /var/cache/apk/*
 
-COPY ./docs/ /root/mkdocs
+COPY . /root/mkdocs
 
 WORKDIR /root/mkdocs
 
