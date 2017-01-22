@@ -1,6 +1,7 @@
 # Braindocs
+[![](https://images.microbadger.com/badges/version/jorgeandrada/braindocs.svg)](https://microbadger.com/images/jorgeandrada/braindocs "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/jorgeandrada/braindocs.svg)](https://microbadger.com/images/jorgeandrada/braindocs "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/commit/jorgeandrada/braindocs.svg)](https://microbadger.com/images/jorgeandrada/braindocs "Get your own commit badge on microbadger.com")
 
-Mkdocs auto public server.
+**Mkdocs auto public server.**
 
 ## Estructura
 
