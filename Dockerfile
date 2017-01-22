@@ -1,5 +1,19 @@
 FROM gliderlabs/alpine:latest
-MAINTAINER Jorge Andrada <jandradap@gmail.com>
+
+ARG BUILD_DATE
+ARG VCS_REF
+ARG VERSION
+LABEL org.label-schema.build-date=$BUILD_DATE \
+			org.label-schema.name="Braindocs" \
+			org.label-schema.description="Braindocs: Mkdocs auto public server." \
+			org.label-schema.url="http://andradaprieto.es" \
+			org.label-schema.vcs-ref=$VCS_REF \
+			org.label-schema.vcs-url="https://github.com/jandradap/braindocs" \
+			org.label-schema.vendor="Jorge Andrada Prieto" \
+			org.label-schema.version=$VERSION \
+			org.label-schema.schema-version="1.0" \
+			maintainer="Jorge Andrada Prieto <jandradap@gmail.com>" \
+			org.label-schema.docker.cmd="docker run --rm -it --name braindocs -v mkdocs_local_path:/root/mkdocs -p 8000:80 jorgeandrada/braindocs"
 
 RUN apk add --update python3 py-pip && \
 pip install --upgrade pip && \
